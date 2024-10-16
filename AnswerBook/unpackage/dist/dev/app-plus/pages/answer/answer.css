@@ -1,0 +1,87 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #1a1a1a;
+    color: #f1c40f;
+    padding: 0.625rem;
+}
+.card {
+    position: relative; /* 设置为相对定位 */
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.5625rem;
+    border: 0.03125rem solid #f1c40f;
+    margin: 0.9375rem 0;
+    background-image: url('https://imgcom.static.suishenyun.net/202408241330985.png'); /* 设置背景图片 */
+    background-size: cover; /* 让图片覆盖整个容器 */
+    background-position: center; /* 图片居中显示 */
+}
+.mandala {
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-top: 3.125rem;
+    animation: rotate 2s linear infinite;
+}
+.text-section {
+    text-align: center;
+    margin-top: 3.125rem;
+    opacity: 0; /* 初始状态隐藏 */
+    transition: opacity 1s ease-in; /* 文字渐进呈现 */
+}
+.main-text {
+    font-size: 1.5625rem;
+    color: #f1c40f;
+    margin-top: 1.25rem;
+}
+.sub-text {
+    font-size: 0.875rem;
+    color: #f1c40f;
+    margin-top: 0.3125rem;
+}
+  
+  /* 旋转动画 */
+@keyframes rotate {
+0% {
+      transform: rotate(0deg);
+}
+100% {
+      transform: rotate(360deg);
+}
+}
+  
+  /* 停止旋转的类 */
+.stop-rotate {
+    animation: none;
+}
+  
+  /* 显示文字的类 */
+.show-text {
+    opacity: 1;
+}
+.retry-button {
+    width: 7.8125rem;
+    padding: 0.15625rem;
+    background-color: #1a1a1a;
+    color: #f1c40f;
+    border: 0.03125rem solid #f1c40f;
+    border-radius: 0.3125rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+.footer {
+    position: absolute; /* 设置为绝对定位 */
+    bottom: 0.3125rem; /* 将底部距离设置为10rpx */
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footer-text {
+    font-size: 0.9375rem;
+    color: #f1c40f;
+}

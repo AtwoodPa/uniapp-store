@@ -1,0 +1,68 @@
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0a0c0f; /* 深色背景 */
+  color: #f1c40f; /* 金色文字 */
+  position: relative;
+}
+.text-area {
+  text-align: center;
+  margin-top: 20rpx;
+}
+.title {
+  font-size: 90rpx;
+  font-weight: bold;
+  color: #f1c40f;
+}
+.subtitle {
+  font-size: 28rpx;
+  margin-top: 10rpx;
+  color: #f1c40f;
+}
+.mandala {
+  width: 700rpx;
+  height: 700rpx;
+  margin: 60rpx 0;
+}
+.description {
+  text-align: center;
+  margin: 60rpx 0;
+  height: 32rpx;
+}
+.desc-text {
+  font-size: 32rpx;
+  color: #f1c40f;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 40rpx;
+}
+.answer-button,
+.daily-quote-button {
+  width: 45%;
+  padding: 5rpx;
+  background-color: #1e1e1e;
+  color: #f1c40f;
+  border: 1rpx solid #f1c40f;
+  border-radius: 10rpx;
+  text-align: center;
+  margin-bottom: 40rpx; /* 确保文字与底部边缘有足够的距离 */
+}
+.footer {
+  text-align: center;
+  margin-top: auto; /* 自动向上对齐 */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 25rpx; /* 确保文字与底部边缘有足够的距离 */
+}
+.footer-text {
+  font-size: 24rpx;
+  color: #f1c40f;
+}

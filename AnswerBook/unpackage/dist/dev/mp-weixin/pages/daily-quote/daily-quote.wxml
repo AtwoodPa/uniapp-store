@@ -1,0 +1,1 @@
+<view class="container"><view class="quote-section"><text class="quote-text">{{a}}</text></view><view class="button-section"><button class="action-button" bindtap="{{b}}">再来一句</button><button class="action-button" bindtap="{{c}}">回到首页</button></view></view>

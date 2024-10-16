@@ -1,0 +1,38 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "答案之书"
+			}
+		},
+		{
+			"path" : "pages/answer/answer",
+			"style" : 
+			{
+				"navigationBarTitleText" : "答案之书"
+			}
+		},
+		{
+			"path" : "pages/daily-quote/daily-quote",
+			"style" : 
+			{
+				"navigationBarTitleText" : "每日一言"
+			}
+		},
+		{
+			"path" : "pages/question/question",
+			"style" : 
+			{
+				"navigationBarTitleText" : "寻找答案"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "答案之书",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
