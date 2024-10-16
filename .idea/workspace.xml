@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="702f8521-cdbb-4f2f-bff6-afd41a879390" name="Changes" comment="Feature：答案之书uniapp">
       <change afterPath="$PROJECT_DIR$/AnswerBook/.hbuilderx/launch.json" afterDir="false" />
